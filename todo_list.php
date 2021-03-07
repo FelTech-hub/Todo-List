@@ -29,11 +29,13 @@
     while($row = mysqli_fetch_assoc($result)){
         $todo_id = $row['todo_id'];
         $todo_list = $row['todo_list'];
+        $todo_date = $row['todo_date'];
 
       echo " <tr>";
        echo  "<td>$todo_id</td>";
       echo " <td>$todo_list</td>";
-      echo " <td><a href='index.php?delete= $todo_id'>Delete</a></td>";
+      echo " <td>$todo_date</td>";
+      echo " <td><a href='index.php?delete= $todo_id' class='btn btn-danger'>Delete</a></td>";
        echo " </tr>";
   }
 

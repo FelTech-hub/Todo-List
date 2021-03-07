@@ -38,6 +38,8 @@
                            <tr>
                            <th>Todo Id</th>
                             <th>Todo List</th>
+                            <th>Todo Date</th>
+                            <th>Dalete</th>
                            </tr>
                        </thead>
                        <tbody>
